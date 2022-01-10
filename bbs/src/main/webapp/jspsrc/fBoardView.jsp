@@ -57,7 +57,7 @@
 			<td class='<%=vo.getId()%>'><%=vo.getId()%></td>
 			<td class='<%=vo.getId()%>'><a
             href="/bbs/jspsrc/readBoard.jsp?id=<%=vo.getId()%>"><%=vo.getTitle()%></a></td>
-			<td class='<%=vo.getId()%>'><a href="/bbs/fboard?wrtier=<%=vo.getWriter()%>&action=searchWriter"><%=vo.getWriter()%></a></td>
+			<td class='<%=vo.getId()%>'><a href="/bbs/fboard?keyIn=<%=vo.getWriter()%>&action=search&comboBox=sWriter"><%=vo.getWriter()%></a></td>
 			<td class='<%=vo.getId()%>'><%=vo.getWriteDate()%></td>
 			<td class='<%=vo.getId()%>'><%=vo.getCnt()%></td>
 		</tr>
